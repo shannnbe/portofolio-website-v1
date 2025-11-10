@@ -1,7 +1,41 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',  // This is required for Docker!
-  // Add any other config you have
-}
+  // Enable standalone output for Docker
+  output: 'standalone',
+  
+  // Reduce bundle size
+  swcMinify: true,
+  
+  // Image optimization
+  images: {
+    domains: [], // Add your image domains here if needed
+    unoptimized: false,
+  },
 
-module.exports = nextConfig
+  // Strict mode for better error detection
+  reactStrictMode: true,
+
+  // Compression
+  compress: true,
+
+  // Security headers
+  async headers() {
+    return [
+      {
+        source: '/:path*',
+        headers: [
+          {
+            key: 'X-DNS-Prefetch-Control',
+            value: 'on'
+          },
+          {
+            key: 'X-Frame-Options',
+            value: 'SAMEORIGIN'
+          },
+        ],
+      },
+    ];
+  },
+};
+
+module.exports = nextConfig;
