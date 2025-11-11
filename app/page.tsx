@@ -165,7 +165,6 @@ export default function Home() {
                     <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
                     Available for work
                   </div>
-                  |
                   <div>Indonesia - Remote APAC</div>
                 </div>
               </div>
@@ -247,12 +246,12 @@ export default function Home() {
           className="py-12 sm:py-16 opacity-0"
         >
           <div className="space-y-8 sm:space-y-12">
-            <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4">
+            <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between">
               <h2 className="text-3xl sm:text-4xl font-light">Work Experiences</h2>
               <div className="text-sm text-muted-foreground font-mono">2024 — Present</div>
             </div>
 
-            <div className="space-y-8 sm:space-y-12">
+            <div className="space-y-6 sm:space-y-8">
               {[
                 {
                   year: "2025",
@@ -271,7 +270,7 @@ export default function Home() {
               ].map((job, index) => (
                 <div
                   key={index}
-                  className="group grid lg:grid-cols-12 gap-4 sm:gap-8 py-6 sm:py-8 border-b border-border/50 hover:border-border transition-colors duration-500"
+                  className="group grid lg:grid-cols-12 gap-4 sm:gap-6 py-3 sm:py-4 border-b border-border/50 hover:border-border transition-colors duration-500"
                 >
                   <div className="lg:col-span-2">
                     <div className="text-xl sm:text-2xl font-light text-muted-foreground group-hover:text-foreground transition-colors duration-500">
@@ -279,7 +278,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="lg:col-span-7 space-y-3">
+                  <div className="lg:col-span-7 space-y-3 pb-4 sm:pb-6">
                     <div>
                       <h3 className="text-lg sm:text-xl font-medium">{job.role}</h3>
                       <div className="text-muted-foreground">{job.company}</div>
@@ -400,11 +399,11 @@ export default function Home() {
             <div className="grid gap-6 sm:gap-8 lg:grid-cols-2">
               {[
                 {
-                  title: "The Future of Web Development",
-                  excerpt: "Exploring how AI and automation are reshaping the way we build for the web.",
+                  title: "I Couldn’t Build a CRUD in My Third Year. Here’s What Changed",
+                  excerpt: "A Very Honest Story About Learning Backend Development in 2025",
                   date: "Nov 2025",
-                  readTime: "5 min",
-                  url: "https://medium.com/@shannnbe",
+                  readTime: "8 min",
+                  url: "https://medium.com/@shannnbe/i-couldnt-build-a-crud-in-my-third-year-here-s-what-changed-49ac93646cd6",
                 },
               ].map((post, index) => (
                 <Link
