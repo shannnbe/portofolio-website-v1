@@ -215,7 +215,7 @@ export default function Home() {
                 { number: "1+", label: "Years Experience", description: "In professional working development" },
                 { number: "2", label: "Enterprise Systems Shipped", description: "Production-ready applications" },
                 { number: "150+", label: "PRs Merged", description: "Code contributions" },
-                { number: "30+", label: "Features and sub-features Built", description: "Across all projects" },
+                { number: "30+", label: "Features and Sub-features Built", description: "Across all projects" },
                 { number: "50+", label: "Unit Tests Written", description: "Test coverage" },
                 { number: "18+", label: "Technical Docs", description: "Documentation written" },
                 { number: "∞", label: "Bugs Fixed", description: "Issues resolved" },
@@ -515,7 +515,7 @@ export default function Home() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { name: "GitHub", handle: "@shannnbe", url: "https://github.com/shannnbe" },
-                  { name: "X", handle: "@gloriashanti", url: "https://x.com/glriashanti" },
+                  { name: "X", handle: "@glriashanti", url: "https://x.com/glriashanti" },
                   { name: "LinkedIn", handle: "gloria-shanti", url: "https://www.linkedin.com/in/gloria-shanti/" },
                   { name: "Medium", handle: "shannnbe", url: "https://medium.com/@shannnbe" },
                 ].map((social) => (
