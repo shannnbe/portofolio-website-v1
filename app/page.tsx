@@ -215,7 +215,7 @@ export default function Home() {
                 { number: "1+", label: "Years Experience", description: "In professional working development" },
                 { number: "2", label: "Enterprise Systems Shipped", description: "Production-ready applications" },
                 { number: "150+", label: "PRs Merged", description: "Code contributions" },
-                { number: "80+", label: "Features Built", description: "Across all projects" },
+                { number: "30+", label: "Features and sub-features Built", description: "Across all projects" },
                 { number: "50+", label: "Unit Tests Written", description: "Test coverage" },
                 { number: "18+", label: "Technical Docs", description: "Documentation written" },
                 { number: "∞", label: "Bugs Fixed", description: "Issues resolved" },
@@ -257,7 +257,7 @@ export default function Home() {
                   year: "2025",
                   role: "Associate Software Engineer",
                   company: "PT Bank Sinarmas Tbk - BSD, Tangerang",
-                  description: "Developing backend systems for Billpayment & Transactions division. Built 50+ features using Go, PostgreSQL, and Redis. Implemented distributed messaging with Kafka and worked with Docker, S3, and RESTful APIs. Key projects: Lucky Draw and Billpayment System.",
+                  description: "Developing backend systems for Bill Payment & Transactions division. Built 10 features using Go, PostgreSQL, and Redis. Implemented distributed messaging with Kafka and worked with Docker, S3, and RESTful APIs. Key projects: Lucky Draw and Bill Payment System.",
                   tech: ["Go", "PostgreSQL", "Redis", "Kafka", "Docker", "S3"],
                 },
                 {
@@ -321,8 +321,8 @@ export default function Home() {
                   title: "Nearby",
                   description:
                     "Real-time incidents reporting and monitoring platform with interactive map visualization and heatmap analysis using PostGIS for tracking and managing local incidents.",
-                  image: "/nearby-project.png",
-                  gif: "/nearby-project.gif",
+                  image: "https://raw.githubusercontent.com/shannnbe/nearby-frontend/main/public/nearby-project.png",
+                  gif: "https://raw.githubusercontent.com/shannnbe/nearby-frontend/main/public/nearby-project.gif",
                   tech: ["Go", "TypeScript", "Leaflet", "Next.js", "Docker", "PostGIS", "VPS"],
                   link: "https://nearby.gloriashanti.dev",
                 },
@@ -515,7 +515,7 @@ export default function Home() {
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {[
                   { name: "GitHub", handle: "@shannnbe", url: "https://github.com/shannnbe" },
-                  { name: "X", handle: "@gloriashanti", url: "https://x.com/gloriashanti" },
+                  { name: "X", handle: "@gloriashanti", url: "https://x.com/glriashanti" },
                   { name: "LinkedIn", handle: "gloria-shanti", url: "https://www.linkedin.com/in/gloria-shanti/" },
                   { name: "Medium", handle: "shannnbe", url: "https://medium.com/@shannnbe" },
                 ].map((social) => (
