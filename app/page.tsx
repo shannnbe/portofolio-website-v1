@@ -321,8 +321,8 @@ export default function Home() {
                   title: "Nearby",
                   description:
                     "Real-time incidents reporting and monitoring platform with interactive map visualization and heatmap analysis using PostGIS for tracking and managing local incidents.",
-                  image: "https://raw.githubusercontent.com/shannnbe/nearby-frontend/main/public/nearby-project.png",
-                  gif: "https://raw.githubusercontent.com/shannnbe/nearby-frontend/main/public/nearby-project.gif",
+                  image: "https://raw.githubusercontent.com/shannnbe/portofolio-website-v1/main/public/nearby-project.png",
+                  gif: "https://raw.githubusercontent.com/shannnbe/portofolio-website-v1/main/public/nearby-project.gif",
                   tech: ["Go", "TypeScript", "Leaflet", "Next.js", "Docker", "PostGIS", "VPS"],
                   link: "https://nearby.gloriashanti.dev",
                 },
