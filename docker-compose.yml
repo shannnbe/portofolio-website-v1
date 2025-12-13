@@ -5,7 +5,7 @@ services:
     image: portfolio-website-v1:latest
     container_name: portfolio-frontend
     ports:
-      - "3030:3000"  # Map host 3030 to container 3000
+      - "127.0.0.1:3030:3000"  # Map host 3030 to container 3000
     restart: unless-stopped
     environment:
       - NODE_ENV=production
