@@ -212,7 +212,7 @@ export default function Home() {
 
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 sm:gap-8">
               {[
-                { number: "1+", label: "Years Experience", description: "In professional working development" },
+                { number: "2+", label: "Years Experience", description: "In professional working development" },
                 { number: "2", label: "Enterprise Systems Shipped", description: "Production-ready applications" },
                 { number: "150+", label: "PRs Merged", description: "Code contributions" },
                 { number: "30+", label: "Features and Sub-features Built", description: "Across all projects" },
