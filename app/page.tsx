@@ -257,7 +257,7 @@ export default function Home() {
                   year: "2025",
                   role: "Associate Software Engineer",
                   company: "PT Bank Sinarmas Tbk - BSD, Tangerang",
-                  description: "Developing backend systems for Bill Payment & Transactions division. Built 10 features using Go, PostgreSQL, and Redis. Implemented distributed messaging with Kafka and worked with Docker, S3, and RESTful APIs. Key projects: Lucky Draw and Bill Payment System.",
+                  description: "Developed distributed backend systems for Bill Payment & Transactions division using Go microservices deployed on Kubernetes. Implemented event-driven features with Kafka messaging, PostgreSQL, and Redis caching to support payment processing. Built key components for Lucky Draw coupon generation engine and Bill Payment platform using Docker, AWS S3, and RESTful APIs.",
                   tech: ["Go", "PostgreSQL", "Redis", "Kafka", "Docker", "S3"],
                 },
                 {
